@@ -36,8 +36,15 @@ footer{
     align-items: center;
     gap: 10px;
 }
-.icone p{
+#icone{
+    display: flex;
+    align-items: center;
+}
+#icone p{
     margin-bottom: 0px;
+}
+#icone img{
+    width: 50px;
 }
 .iconesNav button{
     display: flex;
