@@ -90,11 +90,26 @@ footer{
 }
 
 /* aqui começa o que não e padrão por todas as paginas */
-
+.conteudosDaMain{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
 .textosDeLogin{
     display: flex;
     align-items: center;
-    margin: 10px 200px;
+    width: 1200px;
+    height: 500px;
+    padding: 10px;
+}
+.textosEBotoes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.textosEBotoes .botoes{
+    display: flex;
+    gap: 15px;
 }
 .textosEBotoes button{
     border-style: solid;
@@ -114,7 +129,7 @@ footer{
     border-width: 1px;
 }
 .textosEBotoes h2{
-    font-size: 75px;
+    font-size: 105px;
     color: #3e1911;
     font-weight: 700;
 }
