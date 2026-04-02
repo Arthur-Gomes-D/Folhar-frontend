@@ -93,6 +93,8 @@ footer{
 
 .textosDeLogin{
     display: flex;
+    align-items: center;
+    margin: 10px 200px;
 }
 .textosEBotoes button{
     border-style: solid;
