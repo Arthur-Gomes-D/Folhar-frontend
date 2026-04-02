@@ -101,3 +101,11 @@ footer{
     border-radius: 5px;
     padding: 0px 5px;
 }
+.textosEBotoes h2{
+    font-size: 75px;
+    color: #3e1911;
+    font-weight: 700;
+}
+.textosEBotoes p{
+    font-weight: bold;
+}
