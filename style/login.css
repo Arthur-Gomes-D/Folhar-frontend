@@ -99,7 +99,19 @@ footer{
 .textosEBotoes button{
     border-style: solid;
     border-radius: 5px;
-    padding: 0px 5px;
+    padding: 5px 30px;
+    font-weight: bolder;
+}
+.textosEBotoes .logar{
+    background-color: #3e1911;
+    border-color: #3e1911;
+    color: #f4efe5;
+    border-width: 1px;
+}
+.textosEBotoes .Cadastrar{
+    color: #3e1911;
+    border-color: #3e1911;
+    border-width: 1px;
 }
 .textosEBotoes h2{
     font-size: 75px;
