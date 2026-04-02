@@ -89,4 +89,13 @@ footer{
     display: flex;
 }
 
-/* aqui começa o que não e padrão por todas as paginas
+/* aqui começa o que não e padrão por todas as paginas */
+
+.textosDeLogin{
+    display: flex;
+}
+.textosEBotoes button{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
