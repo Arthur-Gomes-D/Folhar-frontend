@@ -136,3 +136,6 @@ footer{
 .textosEBotoes p{
     font-weight: bold;
 }
+.textosDeLogin .image{
+    transform: scaleX(-1);
+}
