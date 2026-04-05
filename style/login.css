@@ -110,6 +110,18 @@ footer{
 .textosEBotoes .botoes{
     display: flex;
     gap: 15px;
+
+}
+.textosEBotoes .Cadastrar, .logar{
+    transition: background-color 200ms;
+}
+.textosEBotoes .Cadastrar:hover{
+    background-color: #ffe3ab;
+
+}
+.textosEBotoes .logar:hover{
+    background-color: #7c3323;
+    border-color: #7c3323;
 }
 .textosEBotoes button{
     border-style: solid;
