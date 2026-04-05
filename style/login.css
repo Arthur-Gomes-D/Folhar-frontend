@@ -143,6 +143,7 @@ footer{
 .conteudosDoFooter{
     display: flex;
     margin: 50px;
+    gap: 20px;
 }
 footer{
     display: flex;
