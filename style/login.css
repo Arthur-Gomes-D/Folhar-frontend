@@ -142,7 +142,15 @@ footer{
 /* footer */
 .conteudosDoFooter{
     display: flex;
+    margin: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
 .conteudosDoFooter p{
     margin-bottom: 0;
+}
+.conteudosDoFooter h3{
+    font-weight: bolder;
 }
