@@ -170,3 +170,12 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+.emailSpan{
+    font-weight: bolder;
+}
+.emailP{
+    margin-top: 20px;
+}
+.botoesFooter{
+    margin-top: 50px;
+}
