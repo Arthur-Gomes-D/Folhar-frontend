@@ -139,3 +139,10 @@ footer{
 .textosDeLogin .image{
     transform: scaleX(-1);
 }
+/* footer */
+.conteudosDoFooter{
+    display: flex;
+}
+.conteudosDoFooter p{
+    margin-bottom: 0;
+}
