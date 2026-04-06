@@ -27,7 +27,10 @@ nav {
     margin: 5px;
     border-radius: 50px;
 }
-
+nav a{
+    text-decoration: none;
+    color: white;
+}
 .iconesNav {
     display: flex;
     align-items: center;
