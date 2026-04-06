@@ -129,7 +129,17 @@ nav {
     border-radius: 60px;
     padding: 10px;
 }
-
+.imagensError{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.imagensError p{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 450px;
+}
 /* footer */
 .conteudosDoFooter {
     display: flex;
