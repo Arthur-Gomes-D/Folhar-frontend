@@ -97,81 +97,17 @@ nav {
 }
 
 /* aqui começa o que não e padrão por todas as paginas */
-.conteudosDaMain {
-    width: auto;
-    display: flex;
-    justify-content: center;
-}
 
-.textosDeLogin {
+.mainDeCadastro .formulario{
     display: flex;
-    align-items: center;
-    width: 1200px;
-    height: 500px;
-    padding: 10px;
-}
-
-.textosEBotoes {
-    display: flex;
+    margin: auto;
     flex-direction: column;
-    gap: 8px;
-}
-
-.textosEBotoes .botoes {
-    display: flex;
-    gap: 15px;
-
-}
-
-.textosEBotoes .Cadastrar,
-.logar {
-    transition: background-color 200ms;
-}
-
-.textosEBotoes .Cadastrar:hover {
-    background-color: #ffe3ab;
-
-}
-
-.textosEBotoes .logar:hover {
-    background-color: #7c3323;
-    border-color: #7c3323;
-}
-
-.textosEBotoes button {
-    border-style: solid;
-    border-radius: 5px;
-    padding: 5px 30px;
-    font-weight: bolder;
-}
-
-.textosEBotoes .logar {
+    width: 280px;
     background-color: #3e1911;
-    border-color: #3e1911;
-    color: #f4efe5;
-    border-width: 1px;
+    color: #ffe192;
+    padding: 15px;
+    border-radius: 10px;
 }
-
-.textosEBotoes .Cadastrar {
-    color: #3e1911;
-    border-color: #3e1911;
-    border-width: 1px;
-}
-
-.textosEBotoes h2 {
-    font-size: 105px;
-    color: #3e1911;
-    font-weight: 700;
-}
-
-.textosEBotoes p {
-    font-weight: bold;
-}
-
-.textosDeLogin .image {
-    transform: scaleX(-1);
-}
-
 /* footer */
 .conteudosDoFooter {
     display: flex;
