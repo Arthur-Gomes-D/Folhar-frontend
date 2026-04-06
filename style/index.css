@@ -168,8 +168,9 @@ nav {
     font-weight: bold;
 }
 
-.textosDeLogin .image {
-    transform: scaleX(-1);
+.textosDeLogin img {
+    width: 350px;
+    height: 350px;
 }
 
 /* footer */
