@@ -113,7 +113,8 @@ nav a{
     border-radius: 10px;
 }
 .mainDeCadastro input[type=text],
-.mainDeCadastro input[type=email]{
+.mainDeCadastro input[type=email],
+.mainDeCadastro input[type=password]{
     border-style: solid;
     border-width: 0.5px;
     border-radius: 8px;
