@@ -1,0 +1,172 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4efe5;
+    color: #3e1911;
+}
+
+nav {
+    background-color: #3e1911;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.iconesNav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#icone {
+    display: flex;
+    align-items: center;
+}
+
+#icone p {
+    margin-bottom: 0px;
+}
+
+#icone img {
+    width: 50px;
+}
+
+.iconesNav button {
+    display: flex;
+    border-style: none;
+    background-color: #f4efe5;
+    color: #3e1911;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconesNav a {
+    text-decoration: none;
+    color: #f4efe5;
+}
+
+.iconesNav svg {
+    height: 40px;
+    width: 40px;
+}
+
+#barraDePesquisa textarea {
+    height: 40px;
+    width: 30vw;
+    resize: none;
+    border-style: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+#barraDePesquisa button {
+    border-style: none;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    transition: background-color 0.15s;
+}
+
+#barraDePesquisa button:hover {
+    background-color: bisque;
+}
+
+#barraDePesquisa {
+    display: flex;
+}
+
+/* aqui começa o que não e padrão por todas as paginas */
+
+
+/* footer */
+.conteudosDoFooter {
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #3e1911;
+    color: white;
+    flex-direction: column;
+}
+
+.conteudosDoFooter p {
+    margin-bottom: 0;
+}
+
+.conteudosDoFooter h3 {
+    font-weight: bolder;
+}
+
+.botoesFooter button {
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: #f4efe5;
+    border-style: solid;
+    border-color: #f4efe5;
+    font-size: 10px;
+}
+
+.informacoesContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailSpan {
+    font-weight: bolder;
+}
+
+.emailP {
+    margin-top: 20px;
+}
+
+.botoesFooter {
+    margin-top: 50px;
+}
+
+.enderecoESolucoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cnpj{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4efe5;
+    color: black;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cnpj p{
+    margin-bottom: 0px;
+}
