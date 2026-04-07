@@ -100,7 +100,24 @@ nav a{
 }
 
 /* aqui começa o que não e padrão por todas as paginas */
+.categorias{
+    display: flex;
+}
+.categoria{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    width: 600px;
+    height:300px;
+}
+.categoria img{
+    width: 35%;
+}
+.categoria p{
+    text-align: center;
+}
 
 /* footer */
 .conteudosDoFooter {
