@@ -102,6 +102,8 @@ nav a{
 /* aqui começa o que não e padrão por todas as paginas */
 .categorias{
     display: flex;
+    justify-content: center;
+    margin: 100PX 0px 100px 0px;
 }
 .categoria{
     align-items: center;
@@ -113,12 +115,23 @@ nav a{
     height:300px;
 }
 .categoria img{
-    width: 35%;
+    width: 55%;
 }
 .categoria p{
     text-align: center;
 }
-
+.textesDasCategorias{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textesDasCategorias h2{
+    font-size: 80px;
+}
+.textesDasCategorias p{
+    font-size: 16px;
+}
 /* footer */
 .conteudosDoFooter {
     display: flex;
