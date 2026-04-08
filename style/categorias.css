@@ -103,7 +103,7 @@ nav a{
 .categorias{
     display: flex;
     justify-content: center;
-    margin: 100PX 0px 100px 0px;
+    margin: 10PX 0px 100px 0px;
 }
 .categoria{
     align-items: center;
@@ -125,6 +125,7 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #3e1911;
 }
 .textesDasCategorias h2{
     font-size: 80px;
