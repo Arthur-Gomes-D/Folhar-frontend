@@ -111,8 +111,7 @@ nav a{
     flex-direction: column;
     justify-content: center;
 
-    width: 600px;
-    height:300px;
+    width: 400px;
 }
 .categoria img{
     width: 55%;
@@ -120,16 +119,19 @@ nav a{
 .categoria p{
     text-align: center;
 }
-.textesDasCategorias{
+.textosDasCatergorias{
     margin: 50px 0px 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    color: #3e1911;
 }
-.textesDasCategorias h2{
+.textosDasCatergorias h2{
     font-size: 80px;
+    font-weight: bolder;
 }
-.textesDasCategorias p{
+.textosDasCatergorias p{
     font-size: 16px;
 }
 /* footer */
