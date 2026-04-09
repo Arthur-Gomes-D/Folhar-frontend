@@ -100,7 +100,15 @@ nav a{
 }
 
 /* aqui começa o que não e padrão por todas as paginas */
-
+.imgCategoria img{
+    width: 10vw;
+    height: 10vw;
+}
+.Categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* footer ------------------------------------------ */
 .conteudosDoFooter {
     display: flex;
