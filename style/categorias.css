@@ -124,10 +124,7 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     justify-content: space-around;
-=======
->>>>>>> 9b04fa45c062b1ee0e17127d87c7900c824ae9aa
     color: #3e1911;
 }
 .textosDasCatergorias h2{
