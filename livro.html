@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/livros.css">
+    <link rel="stylesheet" href="style/livro.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
@@ -42,66 +42,67 @@
         </div>
     </nav>
     <main>
-        <section id="carroselDeCategorias">
-            <h2>Categorias</h2>
-            <section class="categorias">
-                <div class="categoria">
-                    <div class="imgCategoria">
-                        <img src="img/categorias/Romance.png" alt="">
-                    </div>
-                    <div class="outrosTextos">
-                        <h3 class="nomeCategoria">
-                            Romance
-                        </h3>
-                    </div>
+        <div class="conteudosDaMain">
+            <section class="capaETextos">
+                <div class="capa">
+                    <img src="img/categorias/Aventura.png" alt="capa do livro [titulo]">
                 </div>
-                <div class="categoria">
-                    <div class="imgCategoria">
-                        <img src="img/categorias/Biografia.png" alt="">
-                    </div>
-                    <div class="outrosTextos">
-                        <h3 class="nomeCategoria">
-                            Biografia
-                        </h3>
-                    </div>
-                </div>
-                <div class="categoria">
-                    <div class="imgCategoria">
-                        <img src="img/categorias/Aventura.png" alt="">
-                    </div>
-                    <div class="outrosTextos">
-                        <h3 class="nomeCategoria">
-                            Aventura
-                        </h3>
-                    </div>
-                </div>
-                <div class="categoria">
-                    <div class="imgCategoria">
-                        <img src="img/categorias/Terror.png" alt="">
-                    </div>
-                    <div class="outrosTextos">
-                        <h3 class="nomeCategoria">
-                            Terror
-                        </h3>
+                <div class="tituloESinopse">
+                    <h2>[Titulo]</h2>
+                    <p><span>Sinopse:</span><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellat fugiat laudantium
+                        repellendus sapiente odit, ex neque ratione nihil. Aliquam laudantium blanditiis nemo nihil
+                        commodi!
+                        Natus quo quibusdam voluptates harum.</p>
+                    <div class="section-botao">
+                        <button id="alugar" onclick="alugarLivro()">
+                            ALUGAR
+                        </button>
                     </div>
                 </div>
             </section>
-        </section>
-        <section id="livros">
-            <h2>Livros</h2>
-            <section class="areaDosLivros">
-                <div class="livro" onclick="irParaOLivro()">
-                    <div class="capa">
-                        <img src="img/categorias/Aventura.png" alt="capa">
+            <section class="comentarios">
+                <div class="areaDeComentar">
+                    <form action="">
+                        <textarea name="" id="areaDoComentario" placeholder="comente sua opinião!"></textarea>
+                        <button>comentar</button>
+                    </form>
+                </div>
+                <div class="areaDeComentarios">
+                    <div class="comentario">
+                        <div class="nome">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div class="textoComentario">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae assumenda maiores eos
+                                labore eius eveniet necessitatibus iste? Quisquam, provident beatae. Ut tempora dolore
+                                nulla exercitationem sapiente delectus, fugit ipsum.</p>
+                        </div>
                     </div>
-                    <div class="textos">
-                        <h3>Lorem Ipsum</h2>
-                            <p>Por Lorem Ipsum</p>
+                    <div class="comentario">
+                        <div class="nome">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div class="textoComentario">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae assumenda maiores eos
+                                labore eius eveniet necessitatibus iste? Quisquam, provident beatae. Ut tempora dolore
+                                nulla exercitationem sapiente delectus, fugit ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="comentario">
+                        <div class="nome">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div class="textoComentario">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae assumenda maiores eos
+                                labore eius eveniet necessitatibus iste? Quisquam, provident beatae. Ut tempora dolore
+                                nulla exercitationem sapiente delectus, fugit ipsum.</p>
+                        </div>
                     </div>
                 </div>
             </section>
-        </section>
-        <script src="script/livros.js"></script>
+            <script src="script/livro.js"></script>
+        </div>
     </main>
     <footer>
         <div class="conteudosDoFooter">
