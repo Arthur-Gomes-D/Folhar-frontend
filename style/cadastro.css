@@ -125,9 +125,7 @@ nav a{
     padding: 5px;
     margin-bottom: 5px;
 }
-.mainDeCadastro input[type=radio]{
-    cursor: pointer;
-}
+
 .mainDeCadastro .opicoesRadio{
     background-color: #ffe09236;
     padding: 5px 10px;
