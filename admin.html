@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/cadastro.css">
+    <link rel="stylesheet" href="style/admin.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
@@ -42,37 +42,47 @@
         </div>
     </nav>
     <main>
-        <div class="mainDeCadastro">
-            <form action="" class="formulario">
-                <h2>Cadastro</h2>
-                <label for="nomeDeUsuario">Nome:*</label>
-                <input type="text" name="" id="nomeDeUsuario" required>
-
-                <label for="emailDoUsuario">Email:*</label>
-                <input type="email" name="" id="EmailDoUsuario" required>
-                
-                <label for="senha">Senha:</label>
-                <input type="password" name="" id="senha" required>
-                
-                <label for="cpfDoUsuario">CPF:</label>
-                <input type="text" id="cpfDoUsuario" required>
-                
-                <label for="telefone">telefone:</label>
-                <input type="tel" name="" id="telefone" required>
-
-                <label for="enderecoDoUsuario">endereço:</label>
-                <input type="text" name="" id="enderecoDoUsuario" required>
-
-                <label for="numeroDaCasaDoUsuario">numero:</label>
-                <input type="text" name="" id="numeroDaCasaDoUsuario" required>
-
-                <label for="bairoDoUsuario">bairro:</label>
-                <input type="text" name="" id="bairoDoUsuario" required>
-                
-                <label for="imgDoUsuario">Imagem:</label>
-                <input type="text" name="" id="imgDoUsuario" placeholder="adicione uma url"required>
-
-                <input type="submit" value="Enviar">
+        <div class="Admin">
+            <h2>Admin:Admin-ID</h2>
+        </div>
+        <div class="formularios">
+            <form action="" id="AdicionarLivro">
+                <h3>Adicionar Livro</h3>
+                <label for="tituloLivro">Titulo:</label>
+                <input type="text" name="" id="tituloLivro">
+                <label for="categoria">Categoria</label>
+                <select name="Categoria" id="categoria">
+                    <option value="romance">romance</option>
+                    <option value="biografia">biografia</option>
+                    <option value="aventura">aventura</option>
+                    <option value="terror">terror</option>
+                </select>
+                <label for="autorLivro">Autor</label>
+                <input type="text" name="" id="autorLivro">
+                <input type="submit">
+            </form>
+            <hr>
+            <form action="" id="DeletarLivro">
+                <h3>Deletar Livro</h3>
+                <label for="IDlivro">ID do livro:</label>
+                <input type="number" name="" id="IDlivro">
+                <input type="submit" value="Deletar">
+            </form>
+            <hr>
+            <form action="" id="AdicionarLivro">
+                <h3>Editar Livro</h3>
+                <label for="tituloNovoDoLivro">Novo Titulo:</label>
+                <input type="text" name="" id="tituloNovoDoLivro">
+                <label for="categoriaNova">Nova Categoria</label>
+                <select name="categoriaNova" id="categoriaNova">
+                    <option value="romance">romance</option>
+                    <option value="biografia">biografia</option>
+                    <option value="aventura">aventura</option>
+                    <option value="terror">terror</option>
+                </select>
+                <label for="autorNovoDoLivro">Novo Autor</label>
+                <input type="text" name="" id="autorNovoDoLivro">
+                <input type="submit">
             </form>
         </div>
     </main>

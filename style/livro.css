@@ -27,7 +27,8 @@ nav {
     margin: 5px;
     border-radius: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: white;
 }
@@ -100,51 +101,104 @@ nav a{
     display: flex;
 }
 
-/* aqui começa o que não e padrão por todas as paginas */
-
-.mainDeCadastro .formulario{
+.areaDeComentar form {
     display: flex;
-    margin: auto;
-    flex-direction: column;
-    width: 280px;
-    background-color: #3e1911;
-    color: #ffe192;
-    padding: 15px;
-    border-radius: 10px;
-}
-.mainDeCadastro input[type=text],
-.mainDeCadastro input[type=email],
-.mainDeCadastro input[type=password],
-.mainDeCadastro input[type=tel]{
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 8px;
-    background-color: #3e1911;
-    border-color: #ffe192;
-    color: #ffe192;
-    padding: 5px;
-    margin-bottom: 5px;
 }
 
-.mainDeCadastro .opicoesRadio{
-    background-color: #ffe09236;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+.areaDeComentar textarea {
+    resize: none;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    overflow: hidden;
 }
-.mainDeCadastro input[type=submit]{
-    border-radius: 20px;
-    border-style: none;
-    padding: 5px 10px;
+
+/* aqui começa o que não e padrão por todas as paginas */
+main {
+    margin: 20px 10px 20px 10px;
+    max-width: 1000px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.conteudosDaMain{
+    margin: 20px 10px 20px 10px;
+}
+.capaETextos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tituloESinopse h2 {
     font-weight: bolder;
-    transition: background-color 280ms;
+    font-size: 3.5rem;
 }
-.mainDeCadastro input[type=button]:hover{
-    background-color: #ffe195;
+
+.tituloESinopse {
+    max-width: 600px;
 }
-.mainDeCadastro{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.tituloESinopse p {
+    margin-bottom: 0px;
+}
+
+.tituloESinopse span {
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.section-botao {
+    display: flex;
+    justify-content: center;
+}
+
+#alugar {
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    transition: background-color 250ms;
+}
+
+#alugar:hover {
+    background-color: bisque;
+}
+.areaDeComentar textarea{
+    border-radius: 10px 0px 0px 10px;
+}
+.areaDeComentar button{
+    border-style: solid;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1rem;
+    padding: 0px 10px;
+    background-color: #3e1911;
+    color: #f4efe5;
+    border-color: #3e1911;
+    
+}
+.areaDeComentar{
+    margin-bottom: 10px;
+}
+.comentario{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.nome p{
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.areaDeComentarios{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 /* footer */
 .conteudosDoFooter {
@@ -205,7 +259,7 @@ footer {
     align-items: flex-end;
 }
 
-.cnpj{
+.cnpj {
     display: flex;
     flex-direction: column;
     background-color: #f4efe5;
@@ -214,6 +268,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.cnpj p{
+
+.cnpj p {
     margin-bottom: 0px;
 }

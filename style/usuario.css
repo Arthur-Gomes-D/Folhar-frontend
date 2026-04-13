@@ -31,7 +31,6 @@ nav a{
     text-decoration: none;
     color: white;
 }
-
 .iconesNav {
     display: flex;
     align-items: center;
@@ -102,50 +101,6 @@ nav a{
 
 /* aqui começa o que não e padrão por todas as paginas */
 
-.mainDeCadastro .formulario{
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    width: 280px;
-    background-color: #3e1911;
-    color: #ffe192;
-    padding: 15px;
-    border-radius: 10px;
-}
-.mainDeCadastro input[type=text],
-.mainDeCadastro input[type=email],
-.mainDeCadastro input[type=password],
-.mainDeCadastro input[type=tel]{
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 8px;
-    background-color: #3e1911;
-    border-color: #ffe192;
-    color: #ffe192;
-    padding: 5px;
-    margin-bottom: 5px;
-}
-
-.mainDeCadastro .opicoesRadio{
-    background-color: #ffe09236;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-.mainDeCadastro input[type=submit]{
-    border-radius: 20px;
-    border-style: none;
-    padding: 5px 10px;
-    font-weight: bolder;
-    transition: background-color 280ms;
-}
-.mainDeCadastro input[type=button]:hover{
-    background-color: #ffe195;
-}
-.mainDeCadastro{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 /* footer */
 .conteudosDoFooter {
     display: flex;

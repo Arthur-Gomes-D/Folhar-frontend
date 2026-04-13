@@ -31,7 +31,6 @@ nav a{
     text-decoration: none;
     color: white;
 }
-
 .iconesNav {
     display: flex;
     align-items: center;
@@ -101,50 +100,49 @@ nav a{
 }
 
 /* aqui começa o que não e padrão por todas as paginas */
-
-.mainDeCadastro .formulario{
+main{
     display: flex;
-    margin: auto;
     flex-direction: column;
-    width: 280px;
-    background-color: #3e1911;
-    color: #ffe192;
-    padding: 15px;
-    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
 }
-.mainDeCadastro input[type=text],
-.mainDeCadastro input[type=email],
-.mainDeCadastro input[type=password],
-.mainDeCadastro input[type=tel]{
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 8px;
-    background-color: #3e1911;
-    border-color: #ffe192;
-    color: #ffe192;
-    padding: 5px;
-    margin-bottom: 5px;
+.Admin{
+    margin: 20px 0px 20px 0px;
 }
+main .formularios,
+main .formularios form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
 
-.mainDeCadastro .opicoesRadio{
-    background-color: #ffe09236;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
 }
-.mainDeCadastro input[type=submit]{
-    border-radius: 20px;
-    border-style: none;
-    padding: 5px 10px;
-    font-weight: bolder;
-    transition: background-color 280ms;
+main .formularios{
+    margin-bottom: 60px;
 }
-.mainDeCadastro input[type=button]:hover{
-    background-color: #ffe195;
+main .formularios form input,
+main .formularios form select{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
 }
-.mainDeCadastro{
-    margin-top: 20px;
-    margin-bottom: 20px;
+main .formularios form label{
+    font-size: 25px;
+}
+main .formularios form input[type=submit]{
+    background-color: #3e1911;
+    border-color: #3e1911;
+    color: white;
+    transition: background-color .1s, border-color .1s;
+}
+main .formularios form input[type=submit]:hover{
+    background-color: #994a38;
+    border-color: #994a38;
 }
 /* footer */
 .conteudosDoFooter {
