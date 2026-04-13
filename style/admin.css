@@ -138,8 +138,7 @@ main .formularios form input[type=submit]{
     background-color: #3e1911;
     border-color: #3e1911;
     color: white;
-    transition: background-color .1s;
-    transition: border-color .1s;
+    transition: background-color .1s, border-color .1s;
 }
 main .formularios form input[type=submit]:hover{
     background-color: #994a38;
