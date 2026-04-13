@@ -135,8 +135,15 @@ main .formularios form label{
     font-size: 25px;
 }
 main .formularios form input[type=submit]{
-    background-color: black;
+    background-color: #3e1911;
+    border-color: #3e1911;
     color: white;
+    transition: background-color .1s;
+    transition: border-color .1s;
+}
+main .formularios form input[type=submit]:hover{
+    background-color: #994a38;
+    border-color: #994a38;
 }
 /* footer */
 .conteudosDoFooter {
