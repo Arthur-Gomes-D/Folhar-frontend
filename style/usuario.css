@@ -100,7 +100,49 @@ nav a{
 }
 
 /* aqui começa o que não e padrão por todas as paginas */
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+.mudarForm{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+#fotoENomeDoUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+#fotoENomeDoUsuario img{
+    width: 150px;
+    height: 150px;
+}
+input[type="submit"]{
+    color: #f4efe5;
+    background-color: #3e1911;
+    border-color: #3e1911;
+    transition: background-color .1s, border-color .1s;
+}
+input[type="submit"]:hover{
+    background-color: #88483a;
+    border-color: #88483a;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"]{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
 /* footer */
 .conteudosDoFooter {
     display: flex;
