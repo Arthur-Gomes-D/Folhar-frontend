@@ -1,3 +1,3 @@
-let logado = localStorage.setItem("logado", false)
-let adm = localStorage.setItem("adm", false)
+let logado = localStorage.setItem("logado", true)
+let adm = localStorage.setItem("adm", true)
 
