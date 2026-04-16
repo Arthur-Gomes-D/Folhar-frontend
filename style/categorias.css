@@ -110,7 +110,7 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    cursor: pointer;
     width: 400px;
 }
 .categoria img{

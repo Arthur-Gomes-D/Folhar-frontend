@@ -123,6 +123,7 @@ main{
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
+    cursor: pointer;
 }
 .categorias{
     display: flex;
@@ -152,6 +153,7 @@ main{
 }
 .capa img{
     width: 100%;
+    height: 200px;
 }
 .livro .textos h3{
     margin-bottom: 0px;

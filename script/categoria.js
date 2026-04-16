@@ -5,7 +5,7 @@ async function carregarCategorias() {
 
   document.querySelector(".categorias").innerHTML = data
     .map(c => `
-                  <div class="categoria">
+                  <div class="categoria" onclick="window.location.href='livros.html'">
                     <img src="${c.img}"
                         alt="imagem da capa">
                     <h3>${c.nome}</h3>
