@@ -29,9 +29,7 @@ document.querySelector(".formulario").addEventListener("submit", async (e) => {
 
   if (response.ok) {
     alert("usuario cadastrado!");
-    e.currentTarget.reset();
-    console.log("usuario cadastrado")
-    window.location.href = "login.html";
+    window.location.href = "./login.html";
   } else {
     alert("Erro ao cadastrar usuario.");
   }

@@ -12,9 +12,9 @@ document.querySelector(".formulario").addEventListener("submit", async (e) => {
   });
 
   if (response.ok) {
-    alert("Jogo cadastrado!");
-    e.currentTarget.reset();
+    alert("usuario logado!");
+    window.location.href = "./categorias.html";
   } else {
-    alert("Erro ao cadastrar jogo.");
+    alert("Erro ao fazer login.");
   }
 });
